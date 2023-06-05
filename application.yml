@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/"db_name"?useSSL=false&serverTimezone=UTC
+    username: db_username
+    password: db_password
+  jpa.hibernate.ddl-auto: update
